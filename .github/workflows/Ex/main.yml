@@ -15,3 +15,4 @@ jobs:
   
       - name: Debug env var llega desde Environment
         run: echo "SERVER_JFROG='${{ vars.SERVER_JFROG }}'"
+             snyk monitor --org=<Aizencroiz> || true
